@@ -1,4 +1,5 @@
 import numpy as np
 
-matrix = np.eye(4)
-print(matrix)
+n = int(input("Enter size of identity matrix: "))
+identity = np.identity(n)
+print(identity)
